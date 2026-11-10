@@ -1,0 +1,255 @@
+
+                        <!DOCTYPE html>
+                        <html lang="en">
+                        <head>
+                            <meta charset="UTF-8">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+							<style>
+								body {
+									background-color: white; /* Ensure the iframe has a white background */
+								}
+
+								
+							</style>
+                        </head>
+                        <body>
+                            <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>PIH Strategic Experience Story v2.0</title>
+<style>
+:root{--bg:#070b14;--panel:#0f1626;--line:#22304d;--txt:#eaf0ff;--mut:#8d9bb8;--a:#3da5ff;--b:#7cf0c9;--c:#ffb454}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{height:100%;overflow:hidden;background:var(--bg);color:var(--txt);font-family:Inter,"Segoe UI",system-ui,sans-serif}
+body:before{content:"";position:fixed;inset:0;background:radial-gradient(900px 500px at 80% -10%,#16356a55,transparent),radial-gradient(700px 500px at -10% 110%,#0f5b4a44,transparent);pointer-events:none}
+#bar{position:fixed;top:0;left:0;height:3px;background:linear-gradient(90deg,var(--a),var(--b));width:0;transition:width .5s;z-index:20}
+.slide{position:absolute;inset:0;padding:7vh 8vw 10vh;display:flex;flex-direction:column;justify-content:center;opacity:0;visibility:hidden;transform:translateY(40px);transition:all .6s cubic-bezier(.2,.8,.2,1)}
+.slide.active{opacity:1;visibility:visible;transform:none}
+.slide.past{transform:translateY(-40px)}
+.eyebrow{color:var(--a);letter-spacing:.2em;text-transform:uppercase;font-size:.78rem;font-weight:700;margin-bottom:1.2rem}
+h1{font-size:clamp(2.2rem,5.4vw,4.8rem);line-height:1.05;letter-spacing:-.03em;max-width:16em}
+h2{font-size:clamp(1.8rem,3.7vw,3.2rem);line-height:1.1;letter-spacing:-.02em;max-width:19em}
+.sub{color:var(--mut);font-size:clamp(1rem,1.5vw,1.3rem);max-width:42em;margin-top:1.2rem;line-height:1.5}
+.hl{background:linear-gradient(90deg,var(--a),var(--b));-webkit-background-clip:text;background-clip:text;color:transparent}
+.grid{display:grid;gap:1rem;margin-top:2.2rem}
+.g3{grid-template-columns:repeat(3,1fr)}.g2{grid-template-columns:repeat(2,1fr)}.g4{grid-template-columns:repeat(4,1fr)}.g5{grid-template-columns:repeat(5,1fr)}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:1.2rem 1.3rem;transition:.3s}
+.card:hover{border-color:var(--a);transform:translateY(-3px)}
+.card b{display:block;font-size:1.05rem;margin-bottom:.4rem}
+.card span{color:var(--mut);font-size:.9rem;line-height:1.45}
+.tag{font-size:.7rem;color:var(--b);font-weight:700;letter-spacing:.12em;text-transform:uppercase;margin-bottom:.5rem;display:block}
+.big{font-size:clamp(2rem,3.6vw,3.2rem);font-weight:800;letter-spacing:-.03em}
+.quote{border-left:3px solid var(--b);padding-left:1.2rem;margin-top:2rem;font-size:clamp(1.1rem,1.8vw,1.5rem);max-width:34em;line-height:1.4}
+.toggle{display:inline-flex;background:var(--panel);border:1px solid var(--line);border-radius:99px;padding:4px;margin-top:1.6rem}
+.toggle button,.chips button{background:none;border:0;color:var(--mut);padding:.5rem 1.1rem;border-radius:99px;cursor:pointer;font-weight:600;font-size:.9rem}
+.toggle button.on,.chips button.on{background:var(--a);color:#04101f}
+.chips{display:flex;gap:.5rem;flex-wrap:wrap;margin-top:1.4rem}
+.chips button{border:1px solid var(--line)}
+.flow{display:flex;gap:.4rem;flex-wrap:wrap;margin-top:2rem;align-items:center}
+.flow div{background:var(--panel);border:1px solid var(--line);padding:.55rem .9rem;border-radius:10px;font-size:.88rem;font-weight:600}
+.flow i{color:var(--a);font-style:normal}
+.node{cursor:pointer;opacity:1}.node.dim{opacity:.25}.node.sel{border-color:var(--b);box-shadow:0 0 24px #7cf0c933}
+.hub{background:linear-gradient(135deg,#123a73,#0e4a3f);border:1px solid var(--a);border-radius:16px;padding:1rem 1.3rem;margin-top:1.4rem;text-align:center}
+.detail{margin-top:1rem;min-height:3.2rem;color:var(--txt);font-size:1rem}
+.step{position:relative}.step em{position:absolute;top:-12px;left:14px;background:var(--a);color:#04101f;font-style:normal;font-weight:800;border-radius:99px;width:26px;height:26px;display:grid;place-items:center;font-size:.8rem}
+.tl{position:relative}.tl .big{color:var(--c);font-size:1.3rem;margin-bottom:.3rem}
+.note{color:var(--mut);font-size:.8rem;margin-top:1.2rem}
+#nav{position:fixed;right:2vw;top:50%;transform:translateY(-50%);display:flex;flex-direction:column;gap:10px;z-index:20}
+#nav i{width:9px;height:9px;border-radius:50%;background:var(--line);cursor:pointer;transition:.3s}
+#nav i.on{background:var(--b);transform:scale(1.5)}
+#foot{position:fixed;left:8vw;bottom:3vh;right:8vw;display:flex;justify-content:space-between;align-items:center;color:var(--mut);font-size:.8rem;z-index:20}
+#foot button{background:var(--panel);border:1px solid var(--line);color:var(--txt);border-radius:8px;padding:.45rem .9rem;cursor:pointer;margin-left:.4rem}
+#foot button:hover{border-color:var(--a)}
+@media(max-width:900px){.g3,.g4,.g5,.g2{grid-template-columns:1fr 1fr}.slide{overflow:auto;justify-content:flex-start}}
+@media(max-width:560px){.g3,.g4,.g5,.g2{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<div id="bar"></div>
+<div id="nav"></div>
+
+<!-- 1 PROVOCATION -->
+<section class="slide">
+  <div class="eyebrow">PIH Strategic Experience Story · v2.0 · For Design &amp; Marketing Leadership</div>
+  <h1>The next PIH experience should not ask users to <span class="hl">understand the system.</span></h1>
+  <p class="sub">The system should understand the user's intent.</p>
+  <div class="chips"><button class="on" onclick="go(1)">Enter the story ↓</button></div>
+</section>
+
+<!-- 2 REFRAME -->
+<section class="slide">
+  <div class="eyebrow">The strategic reframe</div>
+  <h2>Not a portal redesign. The <span class="hl">intelligence layer</span> that turns Dell's commercial intent into procurement-ready experiences.</h2>
+  <div class="grid g3">
+    <div class="card"><span class="tag">Old frame</span><b>A configuration tool</b><span>Settings, forms, validation, and publication.</span></div>
+    <div class="card"><span class="tag">Strategic frame</span><b>A commerce orchestration layer</b><span>Intent, context, governance, and distribution.</span></div>
+    <div class="card"><span class="tag">Future frame</span><b>An agentic procurement experience</b><span>Recommend, simulate, explain, and automate.</span></div>
+  </div>
+  <p class="quote">"PIH makes Dell offers usable inside the procurement systems where business buying actually happens."</p>
+</section>
+
+<!-- 3 WHAT PIH IS -->
+<section class="slide">
+  <div class="eyebrow">What PIH really is</div>
+  <h2>Most teams see a catalog tool. It is Dell's <span class="hl">enterprise procurement operating system.</span></h2>
+  <p class="sub">Premier Procurement Integration connects Dell's commerce ecosystem to the procurement ecosystems enterprise customers use: SAP Ariba, Coupa, Jaggaer and internal ERP systems.</p>
+  <div class="flow" id="lifecycle"></div>
+  <div class="grid g4">
+    <div class="card"><b>Buyer Hosted Catalog</b><span>Customer-owned procurement catalogs.</span></div>
+    <div class="card"><b>Seller Hosted Catalog</b><span>Dell-hosted catalogs via Punchout.</span></div>
+    <div class="card"><b>Quote-to-Order</b><span>Complex deals, negotiated pricing, custom solutions.</span></div>
+    <div class="card"><b>Services &amp; Warranty</b><span>Warranty, renewals, service contracts.</span></div>
+  </div>
+</section>
+
+<!-- 4 INTELLIGENCE GAP -->
+<section class="slide">
+  <div class="eyebrow">The intelligence gap</div>
+  <h2>Expertise lives in people, <span class="hl">not in the platform.</span></h2>
+  <div class="grid g4">
+    <div class="card"><b>Catalog experts</b><span>Entitlements, product mappings, SPL behavior.</span></div>
+    <div class="card"><b>Pricing experts</b><span>Contract pricing, exceptions, rebate impacts.</span></div>
+    <div class="card"><b>Operations experts</b><span>Failures, recoveries, routing issues.</span></div>
+    <div class="card"><b>Support experts</b><span>Root causes, integrations, resolution paths.</span></div>
+  </div>
+  <p class="quote">"Move intelligence from people into systems and make expertise available to every participant at every point in the journey." <br><small style="color:var(--mut)">DesignOS thesis</small></p>
+</section>
+
+<!-- 5 TODAY vs FUTURE -->
+<section class="slide">
+  <div class="eyebrow">The experience opportunity</div>
+  <h2>Move complexity from the user <span class="hl">into the platform.</span></h2>
+  <div class="toggle"><button class="on" data-v="today">Today</button><button data-v="future">Future</button></div>
+  <div class="grid g4" id="tf"></div>
+</section>
+
+<!-- 6 FUTURE JOURNEY -->
+<section class="slide">
+  <div class="eyebrow">The future experience</div>
+  <h2>An agentic journey with <span class="hl">visible human control.</span></h2>
+  <div class="grid g5" style="margin-top:2.6rem">
+    <div class="card step"><em>1</em><b>Express intent</b><span>Describe the outcome in plain language or start from a proven pattern.</span></div>
+    <div class="card step"><em>2</em><b>Resolve context</b><span>Infer partner, geography, format, localization, and eligibility.</span></div>
+    <div class="card step"><em>3</em><b>Build configuration</b><span>Recommend safe defaults, explain why, allow correction.</span></div>
+    <div class="card step"><em>4</em><b>Simulate before publish</b><span>Preview output, downstream impact, and exceptions.</span></div>
+    <div class="card step"><em>5</em><b>Govern and learn</b><span>Keep approval explicit; improve reusable patterns.</span></div>
+  </div>
+  <p class="sub">Failure → AI investigation → suggested fix → <b>human approval</b> → execution.</p>
+</section>
+
+<!-- 7 ARCHITECTURE -->
+<section class="slide">
+  <div class="eyebrow">PIH architecture · Cross-functional operating model</div>
+  <h2>From commercial intent to <span class="hl">governed procurement execution.</span></h2>
+  <div class="chips" id="phase"></div>
+  <div class="grid g4" id="nodes" style="margin-top:1.2rem"></div>
+  <div class="hub"><b>PIH</b> · Context, rules, governance &amp; traceability</div>
+  <div class="detail" id="detail">Select a department or lifecycle phase to isolate the communication path.</div>
+</section>
+
+<!-- 8 VALUE -->
+<section class="slide">
+  <div class="eyebrow">Translate UX into enterprise value</div>
+  <h2>One transformation. <span class="hl">Different reasons to care.</span></h2>
+  <div class="grid g4">
+    <div class="card"><div class="big hl">Hours, not days</div><span>Time to catalog readiness</span></div>
+    <div class="card"><div class="big hl">&gt;90%</div><span>First-pass success target</span></div>
+    <div class="card"><div class="big hl">60–80% less</div><span>Manual decision effort</span></div>
+    <div class="card"><div class="big hl">Higher trust</div><span>Confidence before publish</span></div>
+  </div>
+  <p class="note">Directional hypotheses for validation, not reported current performance.</p>
+</section>
+
+<!-- 9 ROADMAP -->
+<section class="slide">
+  <div class="eyebrow">Roadmap</div>
+  <h2>Make the ambition executable. <span class="hl">Prove value in 90 days.</span></h2>
+  <div class="grid g3">
+    <div class="card tl"><div class="big">0–30 days</div><b>Frame and baseline</b><span>Map one high-volume onboarding path. Measure task time, errors, handoffs, and user confidence.</span></div>
+    <div class="card tl"><div class="big">31–60 days</div><b>Prototype and test</b><span>Test an intent-led flow with 6–8 representative GIA users. Validate defaults, explanations, simulation, and approval.</span></div>
+    <div class="card tl"><div class="big">61–90 days</div><b>Pilot and decide</b><span>Pilot one catalog pattern. Measure first-pass success and time to readiness. Fund the roadmap on evidence.</span></div>
+  </div>
+</section>
+
+<!-- 10 DECISION -->
+<section class="slide">
+  <div class="eyebrow">The leadership decision</div>
+  <h1>PIH must become part of the <span class="hl">experience strategy.</span></h1>
+  <p class="sub">Fund a cross-functional PIH experience transformation, beginning with one high-volume onboarding path.</p>
+  <div class="grid g3">
+    <div class="card"><span class="tag">Sponsor</span><b>One leadership trio</b><span>Name one UX, product, and engineering leader.</span></div>
+    <div class="card"><span class="tag">Pilot</span><b>One onboarding pattern</b><span>Select one high-volume, measurable pattern.</span></div>
+    <div class="card"><span class="tag">Evidence</span><b>Decide by day 90</b><span>Baseline now, test in 60 days.</span></div>
+  </div>
+  <div class="chips"><button class="on" onclick="go(0)">Restart the story ↻</button></div>
+</section>
+
+<div id="foot"><span id="count"></span><span>↑ ↓ / wheel / swipe <button onclick="go(i-1)">↑</button><button onclick="go(i+1)">↓</button></span></div>
+
+<script>
+const S=[...document.querySelectorAll('.slide')];let i=0,lock=false;
+const nav=document.getElementById('nav');
+S.forEach((_,k)=>{const d=document.createElement('i');d.onclick=()=>go(k);nav.appendChild(d)});
+function go(n){if(n<0||n>=S.length||lock)return;lock=true;i=n;
+ S.forEach((s,k)=>{s.classList.toggle('active',k===i);s.classList.toggle('past',k<i)});
+ [...nav.children].forEach((d,k)=>d.classList.toggle('on',k===i));
+ document.getElementById('bar').style.width=((i+1)/S.length*100)+'%';
+ document.getElementById('count').textContent=(i+1)+' / '+S.length;
+ setTimeout(()=>lock=false,600)}
+addEventListener('keydown',e=>{if(['ArrowDown','PageDown',' '].includes(e.key)){e.preventDefault();go(i+1)}
+ if(['ArrowUp','PageUp'].includes(e.key)){e.preventDefault();go(i-1)}});
+addEventListener('wheel',e=>{if(Math.abs(e.deltaY)>30)go(i+(e.deltaY>0?1:-1))},{passive:true});
+let ty;addEventListener('touchstart',e=>ty=e.touches[0].clientY);
+addEventListener('touchend',e=>{const d=ty-e.changedTouches[0].clientY;if(Math.abs(d)>50)go(i+(d>0?1:-1))});
+
+// lifecycle
+const lc=["Onboard","Identity","Catalog","Price","Quote","Requisition","Purchase Order","Fulfillment","Post Order","Analytics"];
+document.getElementById('lifecycle').innerHTML=lc.map(x=>`<div>${x}</div>`).join('<i>→</i>');
+
+// today vs future
+const TF={today:[["Users interpret rules","Expert knowledge lives outside the interface."],["Dependencies appear late","Errors surface after effort is spent."],["Settings dominate","The system model becomes the user's mental model."],["Publishing feels risky","Downstream consequences are unclear."]],
+future:[["PIH interprets intent","The experience begins with the desired outcome."],["Dependencies resolve early","Rules are continuously checked and explained."],["Context drives defaults","Partner, geography, and format shape the journey."],["Simulation builds trust","Users preview impact before publishing."]]};
+const tf=document.getElementById('tf');
+function renderTF(v){tf.innerHTML=TF[v].map(c=>`<div class="card"><b>${c[0]}</b><span>${c[1]}</span></div>`).join('')}
+renderTF('today');
+document.querySelectorAll('.toggle button').forEach(b=>b.onclick=()=>{
+ document.querySelectorAll('.toggle button').forEach(x=>x.classList.toggle('on',x===b));renderTF(b.dataset.v)});
+
+// architecture
+const N=[
+["Marketing & Offers","Campaign, audience, offer intent",[1]],
+["Sales & Account","Account, agreement, opportunity context",[1]],
+["Product & Catalog","Portfolio, SKU, service and SPL rules",[2]],
+["Commerce Services","Price, availability and transaction truth",[2,3]],
+["Buyer Procurement","Ariba, Coupa, Oracle and JAGGAER",[3]],
+["Monitoring & Support","Exceptions, incidents and learning loops",[4]],
+["GIA Operations","Onboarding, configuration and approval",[3]],
+["Forward context","Feedback and validation",[4]]];
+const P=[["All","Select a department or phase to isolate the path."],
+["1 · Intake","Marketing and Sales provide offer, audience, account, and agreement context."],
+["2 · Integration","PIH resolves partner eligibility, SPL rules, products, countries, currencies, formats, and publication dependencies."],
+["3 · Execution","GIA Operations reviews recommendations, resolves exceptions, tests the output, and approves publication."],
+["4 · Feedback","Catalog adoption, purchase orders, acknowledgements, order status, invoices, and support signals return to the responsible owners."]];
+const nodes=document.getElementById('nodes'),det=document.getElementById('detail'),ph=document.getElementById('phase');
+nodes.innerHTML=N.map((n,k)=>`<div class="card node" data-k="${k}"><b>${n[0]}</b><span>${n[1]}</span></div>`).join('');
+ph.innerHTML=P.map((p,k)=>`<button class="${k?'':'on'}" data-p="${k}">${p[0]}</button>`).join('');
+function setPhase(k){[...ph.children].forEach((b,j)=>b.classList.toggle('on',j==k));
+ [...nodes.children].forEach((c,j)=>{c.classList.remove('sel');c.classList.toggle('dim',k>0&&!N[j][2].includes(+k))});det.textContent=P[k][1]}
+ph.onclick=e=>{if(e.target.dataset.p!==undefined)setPhase(e.target.dataset.p)};
+nodes.onclick=e=>{const c=e.target.closest('.node');if(!c)return;const k=+c.dataset.k;
+ [...ph.children].forEach((b,j)=>b.classList.toggle('on',j==0));
+ [...nodes.children].forEach((x,j)=>{x.classList.toggle('sel',j===k);x.classList.toggle('dim',j!==k)});
+ det.textContent=N[k][0]+": "+N[k][1]+". Active in phases "+N[k][2].join(", ")+"."};
+go(0);
+</script>
+</body>
+</html>
+
+							<script>
+                            	
+							</script>
+                        </body>
+                        </html>
+                    
